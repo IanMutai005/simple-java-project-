@@ -17,7 +17,7 @@ class Sphere extends Shape {
     }
 
     double volume() {
-        return (4 * Math.PI * Math.pow(radius, 8)) / 3;
+        return (4 * Math.PI * Math.pow(radius, 5)) / 3;
     }
 }
 
